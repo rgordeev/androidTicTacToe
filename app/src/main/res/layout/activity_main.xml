@@ -5,72 +5,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_margin="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0pt"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:tag="0_0"
             android:layout_weight="1"
-            android:text="X"/>
+            android:onClick="onButtonClick"
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:tag="0_1"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:tag="0_2"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:text=""/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0pt"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:tag="1_0"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:tag="1_1"
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="onButtonClick"
+            android:tag="1_2"
             android:layout_weight="1"
-            android:text="X"/>
+            android:text=""/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0pt"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="onButtonClick"
+            android:tag="2_0"
             android:layout_weight="1"
-            android:text="X"/>
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:tag="2_1"
+            android:text=""/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text="X"/>
+            android:tag="2_2"
+            android:text=""/>
     </LinearLayout>
 
 </LinearLayout>
