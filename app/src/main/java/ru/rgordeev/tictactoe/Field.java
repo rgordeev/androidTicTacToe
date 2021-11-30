@@ -22,11 +22,11 @@ class Field {
         if (turn) {
             moveX(x, y);
             turn = false;
-            return "X";
+            return "cross";
         } else {
             moveO(x, y);
             turn = true;
-            return "O";
+            return "zero";
         }
     }
 

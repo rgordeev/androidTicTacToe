@@ -14,30 +14,27 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_margin="5dp">
-        <Button
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:tag="0_0"
             android:layout_weight="1"
-            android:onClick="onButtonClick"
-            android:text=""/>
-        <Button
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:tag="0_1"
-            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text=""/>
-        <Button
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:tag="0_2"
-            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text=""/>
+            android:onClick="onButtonClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -46,30 +43,27 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_margin="5dp">
-        <Button
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:tag="1_0"
-            android:onClick="onButtonClick"
             android:layout_weight="1"
-            android:text=""/>
-        <Button
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:onClick="onButtonClick"
-            android:layout_weight="1"
             android:tag="1_1"
-            android:text=""/>
-        <Button
+            android:layout_weight="1"
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:onClick="onButtonClick"
             android:tag="1_2"
             android:layout_weight="1"
-            android:text=""/>
+            android:onClick="onButtonClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,30 +72,27 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_margin="5dp">
-        <Button
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:onClick="onButtonClick"
             android:tag="2_0"
             android:layout_weight="1"
-            android:text=""/>
-        <Button
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:onClick="onButtonClick"
-            android:layout_weight="1"
             android:tag="2_1"
-            android:text=""/>
-        <Button
+            android:layout_weight="1"
+            android:onClick="onButtonClick"/>
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:onClick="onButtonClick"
-            android:layout_weight="1"
             android:tag="2_2"
-            android:text=""/>
+            android:layout_weight="1"
+            android:onClick="onButtonClick"/>
     </LinearLayout>
 
 </LinearLayout>

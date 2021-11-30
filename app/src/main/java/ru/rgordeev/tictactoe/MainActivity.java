@@ -1,8 +1,10 @@
 package ru.rgordeev.tictactoe;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,20 +21,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View view) {
-        Button button = (Button) view;
+        ImageView image = (ImageView) view;
 
-        Coordinates coords = parseTag(button.getTag().toString());
+        Coordinates coords = parseTag(image.getTag().toString());
         if (!field.valid(coords.getX(), coords.getY())) {
             Toast.makeText(getApplicationContext(), "WRONG TURN", Toast.LENGTH_LONG).show();
             return;
         }
 
 
-        String caption = field.turn(coords.getX(), coords.getY());
-        button.setText(caption);
+        String imageName = field.turn(coords.getX(), coords.getY());
+        int imageId = getApplicationContext()
+                .getResources()
+                .getIdentifier(
+                        imageName,
+                        "drawable",
+                        getApplicationContext().getPackageName()
+                );
+        image.setImageResource(imageId);
 
         if (field.won()) {
-            Toast.makeText(getApplicationContext(), String.format("%s WON", caption), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), String.format("%s WON", imageName), Toast.LENGTH_LONG).show();
         }
 
     }
